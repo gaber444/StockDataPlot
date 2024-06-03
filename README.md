@@ -20,7 +20,7 @@ First, clone the Git repository to your local machine:
 
 ```sh
 git clone https://github.com/gaber444/StockDataPlot.git
-cd stock
+cd StockDataPlot
 ```
 
 ### For Linux/Mac
