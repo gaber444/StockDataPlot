@@ -31,3 +31,21 @@ cd stock
 ```sh
 windows_setup_env.bat
 ```
+
+## Usage example
+Here is an example of how to use the `PlotStocksPrices` class to download and plot stock data:
+
+```python
+# Define the date range and tickers
+start_date: str = '2023-05-21'
+end_date: str = '2024-05-21'
+tickers: list = ['AAPL', 'MU']
+
+# Initialize the PlotStocksPrices class with the list of tickers
+m_stock = PlotStocksPrices(tickers)
+
+# Set the start and end dates for the data to be downloaded
+m_stock.SetStartEndDate(start_date, end_date)
+
+# Download the data, process it, and generate plots
+m_stock.combineAll()
