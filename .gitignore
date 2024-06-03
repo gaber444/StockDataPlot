@@ -1,3 +1,4 @@
 stocks/
 .python-version
 STOCKDATA/
+.DS_Store
