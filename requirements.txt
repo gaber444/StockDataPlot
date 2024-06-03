@@ -1,0 +1,7 @@
+numpy
+lxml_html_clean 
+requests_html
+yfinance
+yahoo-fin
+matplotlib
+
